@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "indicom",
+    "slug": "indicom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/new-icon.png",
+    "scheme": "myappax",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.indicom",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "myappax"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "versionCode": 1,
+      "permissions": [],
+        "config": {
+          "googleSignIn": {
+            "apiKey": "AIzaSyC5xAecRH2M8vsbFlAm4LrzORBZ6A9SnOo",
+            "certificateHash": "E7DD1CDC2784DD2B6B9A5EE0C40FD5F0693E30FC"
+        }
+      }
+	  }
+  }
+}
